@@ -1,0 +1,26 @@
+{
+  "name": "aframe-tweaker-component",
+  "version": "1.0.0",
+  "description": "A-Frame component for tweaking values in-VR",
+  "main": "index.js",
+  "scripts": {
+    "dist": "mkdir dist && cp index.js dist/aframe-tweaker-component.js && uglifyjs index.js > dist/aframe-tweaker-component.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiss/aframe-tweaker-component.git"
+  },
+  "keywords": [
+    "a-frame",
+    "aframevr",
+    "component",
+    "tweak"
+  ],
+  "author": "Diego F. Goberna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feiss/aframe-tweaker-component/issues"
+  },
+  "homepage": "https://github.com/feiss/aframe-tweaker-component#readme"
+}
